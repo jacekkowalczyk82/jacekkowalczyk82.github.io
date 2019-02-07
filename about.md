@@ -4,33 +4,37 @@ title: About
 permalink: /about/
 ---
 
-I am a Software and Test Engineer. 
+**I am Software and Test Engineer interested in OpenSource especially BSD,FreeBSD, Linux, Debian, Kali Linux**
 
 ### More Information
 
 My other places:
 
-Wordpress blog: https://jacekkowalczyk.wordpress.com/
+[jacekkowalczyk.wordpress.com blog](https://jacekkowalczyk.wordpress.com/)
 
-https://mobile.twitter.com/jacekkowalczy10/
+[My Twitter](https://mobile.twitter.com/jacekkowalczy10/)
 
-https://gitlab.com/jacekkowalczyk82/freebsd – documentation for my FreeBSD setup
+[Mastodon](https://mastodon.technology/@kowalczy)
 
-https://gitlab.com/jacekkowalczyk82/my-debian – my configs and manuals for My Custom Kali Linux distribution.
+[My FreeBSD customization/manuals project](https://gitlab.com/jacekkowalczyk82/freebsd)
 
-https://www.linkedin.com/in/jacek-kowalczyk-4800644/
+[My configs and manuals for my Kali Linux customization](https://gitlab.com/jacekkowalczyk82/my-debian)
 
-http://www.goldenline.pl/jacek-kowalczyk6
+[LinkedIn profile](https://www.linkedin.com/in/jacek-kowalczyk-4800644/)
+
+[GoldenLine propfile](http://www.goldenline.pl/jacek-kowalczyk6)
 
 
 ### Contact me
 
 Best way to contact  me is to write a comment at wordpress blog: https://jacekkowalczyk.wordpress.com/ 
 
-or by twitter: https://twitter.com/jacekkowalczy10
+or by [twitter](https://mobile.twitter.com/jacekkowalczy10/)
 
-or mastodon: https://mastodon.technology/@kowalczy
+or [Mastodon](https://mastodon.technology/@kowalczy)
 
+
+### Jekyll blog theme 
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
