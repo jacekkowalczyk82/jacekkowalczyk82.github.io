@@ -13,26 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Jacek Kowalczyk in OpenSource World
+email: jack82@bsdmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is my next web place next to other like my wordpress blog https://jacekkowalczyk.wordpress.com/
+  I am Software and Test Engineer interested in OpenSource especially "#BSD", :"#Linux"
+  keywords":" kalilinux debian linux freebsd bsd opensource 
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://jacekkowalczyk82.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jacekkowalczy10
+github_username:  jacekkowalczyk82
 
 # Build settings
 markdown: kramdown
 
-#theme: minima
+theme: minima
 #theme: minima
 #theme: jekyll-theme-hacker
 #theme: jekyll-theme-midnight
 #theme: jekyll-theme-architect
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 
 plugins:
   - jekyll-feed
