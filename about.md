@@ -27,11 +27,7 @@ My other places:
 
 ### Contact me
 
-Best way to contact  me is to write a comment at wordpress blog: https://jacekkowalczyk.wordpress.com/ 
-
-or by [twitter](https://mobile.twitter.com/jacekkowalczy10/)
-
-or [Mastodon](https://mastodon.technology/@kowalczy)
+Best way to contact  me is to write a comment at [wordpress blog](https://jacekkowalczyk.wordpress.com/) or by [Twitter](https://mobile.twitter.com/jacekkowalczy10/) or by [Mastodon](https://mastodon.technology/@kowalczy)
 
 
 ### Jekyll blog theme 
