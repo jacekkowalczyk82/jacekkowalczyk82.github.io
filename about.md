@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**I am Software and Test Engineer interested in OpenSource especially BSD,FreeBSD, Linux, Debian, Kali Linux**
+**I am Software and Test Engineer interested in OpenSource especially FreeBSD, BSD, Linux, Debian, Kali Linux**
 
 ### More Information
 
@@ -27,20 +27,6 @@ My other places:
 
 ### Contact me
 
-Best way to contact  me is to write a comment at [wordpress blog](https://jacekkowalczyk.wordpress.com/) or by [Twitter](https://mobile.twitter.com/jacekkowalczy10/) or by [Mastodon](https://mastodon.technology/@kowalczy)
+Best way to contact  me is to write a comment at [Wordpress blog](https://jacekkowalczyk.wordpress.com/) or by [Twitter](https://mobile.twitter.com/jacekkowalczy10/) or by [Mastodon](https://mastodon.technology/@kowalczy)
 
 
-### Jekyll blog theme 
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
