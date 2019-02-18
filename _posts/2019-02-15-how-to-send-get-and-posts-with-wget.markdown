@@ -2,7 +2,8 @@
 layout: post
 title:  "How to send GET and POST requests with wget?"
 date:   2019-02-15 15:44:00 +0100
-categories: update blogging wget 
+categories: jekyll update blogging linux
+tags: [tips,tricks,wget]
 ---
 
 
