@@ -37,11 +37,11 @@ When OpenBSD is booted from instalation image, it will start ask questions:
 |No valid MBR or GPT.                                     |           |
 |Use (W)hole disk MBR, whole disk(G)PT or (E)dit? [whole] | Hit Enter |
 |Use (A)uto layout, (E)dit auto layout, or create (C)ustom layout [a]| Hit Enter |
-|(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
-|(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
-|(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
-|(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
-|(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
+|Let's install the sets!                                  |   |
+|Location of sets? (cd0 disk http or 'done') [cd0]        | Hit Enter |
+|Pathname to the sets? (or 'done') [6.4/amd64]            | Hit Enter |
+|Set name(s)? (or 'abort' or 'done') [done]               | Hit Enter |
+|Directory does not contain SHA256.sig. Continue whithout verification ? [no]| yes   |
 |(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
 |(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
 
