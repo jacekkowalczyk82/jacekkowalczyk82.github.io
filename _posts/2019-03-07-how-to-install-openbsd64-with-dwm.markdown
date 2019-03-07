@@ -7,7 +7,7 @@ tags: [tips,manual,dwm,openbsd,openbsd64]
 ---
 
 
-Baic installation of the OpenBSD 6.4 is straightforward. For most installer questions you just press Enter. 
+Basic installation of the OpenBSD 6.4 is straightforward. For most installer questions you just press Enter. 
 
 When OpenBSD is booted from instalation image, it will start ask questions:
 
@@ -42,15 +42,55 @@ When OpenBSD is booted from instalation image, it will start ask questions:
 |Pathname to the sets? (or 'done') [6.4/amd64]            | Hit Enter |
 |Set name(s)? (or 'abort' or 'done') [done]               | Hit Enter |
 |Directory does not contain SHA256.sig. Continue whithout verification ? [no]| yes   |
-|(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
-|(I)nstall, (U)pgrade (A)utoinstall or (S)hell ?        |   |
+|Location of sets? (cd0 disk http or 'done') [done]       | Hit Enter |
+|Exit to (S)hell, (H)alt or (R)eboot? [reboot]            | Hit Enter |
 
+## Resources 
+
+* https://www.bcsatellite.net/OpenBSD-Desktop-HOWTO/
+* https://en.wikibooks.org/wiki/Guide_to_Unix/BSD/OpenBSD/As_a_Desktop
+* https://wallpapercave.com/openbsd-wallpaper
+* https://www.reddit.com/r/unixporn/comments/9d0a1t/dwm_openbsd_suckless_beauty/
+* https://www.c0ffee.net/blog/openbsd-on-a-laptop/#initial-configuration
+* http://eradman.com/posts/openbsd-workstation.html
+
+* https://www.openbsd.org/faq/ports/ports.html
 
 ## Installing additional applications 
 
 ```
 pkg_add sudo htop i3 nano vim firefox geany 
+#pkg_ddd mate-desktop mat-notification-deamon mate-terminal mate-panel mate-session-manager mate-icon-theme mate-control-center mate-calc caja
+pkg_add nitrogen 
+pkg_add pkglocatedb
+pkg_add wget 
+wget https://wallpapercave.com/wp/NIPs9fj.jpg
 
+
+pkg_add dwm dmenu st 
+
+
+
+```
+
+
+* create file .xinitrc
+
+```
+xset -b 
+setxkbmap pl
+#xrdb ~/.Xresources
+
+#exec xrandr --output VGA-0 --mode 1920x975 --rate 60 &
+exec nitrogen --restore &
+#exec plank & 
+
+while true ; do xsetroot -name "`date '+%Y-%m-%d %H:%M.%S'` Load15: `uptime |awk -F "load" '{print $2}' |cut -d " " -f 5 `; Up: `uptime |cut -d "," -f 1 |awk -F "up" '{print $2}'`"; sleep 1 ; done &
+
+#if you have compton 
+#compton -b --config ~/.config/compton.conf & 
+
+exec dwm
 
 ```
 
