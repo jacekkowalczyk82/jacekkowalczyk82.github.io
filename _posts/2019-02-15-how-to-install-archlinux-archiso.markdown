@@ -2,7 +2,7 @@
 layout: post
 title:  "How to install ArchLinux - Step by Step manual + archiso - Creating custom Arch Linux ISO "
 date:   2019-02-15 15:58:00 +0100
-categories: jekyll update blogging linux
+categories: update manuals linux
 tags: [arch,linux,archlinux,archiso,iso,livecd]
 ---
 
