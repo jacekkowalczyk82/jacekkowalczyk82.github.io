@@ -67,7 +67,7 @@ pandoc test-pandoc.md -s --wrap auto -o test-pandoc-slides.pptx
 ```
 
 
-If you want to create HTML presentation you can use reveal.js framework. Download it and unpack to the directory ./reveal.js and run pandoc:
+If you want to create HTML presentation you can use [reveal.js](https://revealjs.com/) framework. Download it and unpack to the directory ./reveal.js and run pandoc:
 
 ```
 pandoc test-pandoc.md -s -i --mathjax -t revealjs -V theme=white --self-contained --slide-level 2 -o test-pandoc-slides.html 
