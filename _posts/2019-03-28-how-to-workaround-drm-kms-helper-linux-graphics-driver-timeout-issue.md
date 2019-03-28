@@ -26,7 +26,7 @@ to: `GRUB_CMDLINE_LINUX_DEFAULT="video=SVIDEO-1:d"`
 Removing options: `quiet splash` turns on boot logs instead of the splashscreen, and now I can know what is going on with boot of my linux box. 
 
 Additionally I modified from:
-`GRUB_TIMEOUT_STYLE=menu` to `GRUB_TIMEOUT_STYLE=menu` 
+`GRUB_TIMEOUT_STYLE=hidden` to `GRUB_TIMEOUT_STYLE=menu` 
 The last modification is enabling grub menu to be always visible at boot time. 
 
 
