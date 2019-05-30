@@ -4,6 +4,8 @@ title: My Kali Linux
 permalink: /my-kali-linux/
 ---
 
+![Kali Linux DWM screenshot](/assets/images/kali-dwm-scrot.png)
+
 My Kali Linux customizations home page 
 
 * Configs and manuals for my Kali Linux customization
