@@ -140,6 +140,8 @@ live-config-systemd
 
 xorg
 xfce4
+live-task-xfce
+
 #DWM
 dwm
 suckless-tools
@@ -210,7 +212,6 @@ pasystray
 udiskie
 network-manager
 network-manager-gnome
-clipit
 xfce4-power-manager
 xscreensaver
 plank
@@ -281,7 +282,7 @@ cp -r /opt/dwm config/includes.chroot/opt/
 
 ```
 
-Build Debian Buster ISO
+Build Debian Stretch ISO
 
 ```
 #when rebuilding run also clean
@@ -291,7 +292,7 @@ sudo lb build --debug --verbose 2>&1 |tee lb-build-stretch-`date '+%Y-%m-%d_%H%M
 
 ```
 
-* Building Debian Stretch was quite similar
+* Building Debian Buster was quite similar
 
 ```
 cd my-debian/live-build-buster
@@ -341,6 +342,24 @@ sudo genisoimage -o ../debian-buster-dwm-live-20190529-amd64.hybrid.hacked-2.iso
 
 * In the ned I got Debian Buster Live ISO with DWM that I can install or use as livecd. 
 
+
+
+* **Build Live ISO image for Buster - easier way**
+
+Recently, I found out that there is faster and easier way to use daily debian installer. 
+
+```
+cd my-debian/live-build-buster
+sudo lb config --debian-installer live -d buster --debian-installer-distribution daily
+#add your packages to config/package-lists/live.list.chroot
+#add your customization files to config/includes.chroot/
+#when rebuilding run also clean
+sudo lb clean --purge
+
+#build ISO
+sudo lb build --debug --verbose 2>&1 |tee lb-build-buster-`date '+%Y-%m-%d_%H%M%S'`.log
+
+```
 
 
 ## Links 
