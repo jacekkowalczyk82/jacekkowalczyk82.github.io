@@ -11,6 +11,7 @@ Debian customizations manuals
 * [Manuals for building Live ISO with Debian Stretch and Buster](https://gitlab.com/jacekkowalczyk82/my-debian/blob/master/debian-stable-readme.md)
 * [Configs for Buster](https://gitlab.com/jacekkowalczyk82/my-debian/tree/master/live-build-buster/config)
 * [Configs for Stretch](https://gitlab.com/jacekkowalczyk82/my-debian/tree/master/live-build-stretch/config)
+* [My-debian about page](https://github.com/jacekkowalczyk82/my-debian/blob/master/live-build-buster/about.md)
 
 
 
