@@ -37,6 +37,7 @@ github_username:  jacekkowalczyk82
 linkedin_username: jacek-kowalczyk-4800644
 
 # Build settings
+exclude: [jekyll-minima-theme.md, do_not_render_content]
 markdown: kramdown
 
 theme: minima
