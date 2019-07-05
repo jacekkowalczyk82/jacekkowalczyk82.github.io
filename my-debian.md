@@ -13,6 +13,8 @@ permalink: /my-debian/
 * [Configs for Stretch](https://gitlab.com/jacekkowalczyk82/my-debian/tree/master/live-build-stretch/config)
 * [Basic help and about](https://gitlab.com/jacekkowalczyk82/my-debian/blob/master/live-build-buster/about.md)
 
+### LDD Linux review by eznix
+
 [![LDD Linux review by eznix](https://img.youtube.com/vi/41qfbof_0nQ/0.jpg)](https://www.youtube.com/watch?v=41qfbof_0nQ)
 
 ### About LDD Linux 
