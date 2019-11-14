@@ -20,6 +20,16 @@ Few months ago I heard about the [Jekyll](https://jekyllrb.com/) which is the re
 
 I installed Jekyll and created  this blog page. 
 
+```
+sudo pkg install ruby ruby26-gems
+sudo gem install bundler jekyll
+
+jekyll new jacekkowalczyk82.github.io
+
+cd jacekkowalczyk82.github.io
+bundle install 
+```
+
 ## My platform
 
 * Operating system: [FreeBSD 12](https://www.freebsd.org/)
