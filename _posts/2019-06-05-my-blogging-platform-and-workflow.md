@@ -51,7 +51,7 @@ bundle exec jekyll post "My blogging platform and workflow"
 
 * I edit the new generated post file with editor and write with markdown :-) 
 
-* I amd checking the resulting blog post with jekyll development server and web browser pointed to `http://localhost:4000/`:
+* I am checking the resulting blog post with jekyll development server and web browser pointed to `http://localhost:4000/`:
 
 ```
 bundle exec jekyll serve
