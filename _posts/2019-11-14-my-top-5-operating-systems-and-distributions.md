@@ -8,7 +8,7 @@ tags: [freebsd,bsd,linux,tools,debian,fedora,ubuntu,mint,mx, mxlinux, arch]
 ---
  
 Many times I was watching youtube films and reading web articles titled: Top 5 /10 Linux Distributions, or what is the best Linux Distribution. 
-After spending many hours on installing them to VirtualBox machines (some to real hardware), testing, using, customising, building my own custom ISO images, Now I can say and write what I think about it and and what are my Top Operating Systems. 
+After spending many hours on installing them to VirtualBox machines (some to real hardware), testing, using, customizing, building my own custom ISO images, Now I can say and write what I think about it and and what are my Top Operating Systems. 
 I use term Operating System as I will not touch only Linux Distributions but also BSD systems. I will write here a bit also about Desktop Environments and Window Managers. 
 
 **What is important for me?** 
