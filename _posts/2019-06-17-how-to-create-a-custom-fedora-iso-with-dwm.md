@@ -17,7 +17,7 @@ There are official [Fedora Spins](https://spins.fedoraproject.org/) but I wanted
 
 I tried to build my own light Fedora ISO. 
 
-In this repository [fedora-dwm-custom](https://github.com/jacekkowalczyk82/fedora-dwm-custom) you can find build scripts and mu configurations for my Fedora editions (XFCE + DWM, KDE + DWM, DWM ultra light). 
+In this repository [fedora-dwm-custom](https://github.com/jacekkowalczyk82/fedora-dwm-custom) you can find build scripts and my configurations for my Fedora editions (XFCE + DWM, KDE + DWM, DWM ultra light). 
 
 
 
