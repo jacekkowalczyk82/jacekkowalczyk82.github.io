@@ -46,6 +46,7 @@ MX Linux provides its own Snapshot tool that can be used for creating custom ISO
 
 It is very stable OS. With lightweight desktops (XFCE, MATE, DWM) I am using it on Virtualbox machines and as Live ISO. I have never tried it on real hardware but I hope I will try. 
 Using spin-kickstarts I can build my own custom ISO. In my [fedora-dwm-custom github repo](https://github.com/jacekkowalczyk82/fedora-dwm-custom) you can find build scripts and mu configurations for my Fedora editions (XFCE + DWM, KDE + DWM, DWM ultra light). 
+[My-Fedora blog page](/my-fedora/)
 
 
 ## My Favourite Desktop Environments and Window Managers
