@@ -13,8 +13,8 @@ My Kali Linux customizations home page
   * [secondary repo at github.com](https://github.com/jacekkowalczyk82/my-debian)
 
 * [Tutorial at kali.org](https://www.kali.org/tutorials/my-custom-kali-linux-distribution/)
-* [My Kali Linux Releases at github repo](https://github.com/jacekkowalczyk82/my-debian/releases)
-* [My customization about page](https://gitlab.com/jacekkowalczyk82/my-debian/blob/master/dwm_openbox_i3/about.md)
-* [My Kali Linux Releases at osdn.net](https://osdn.net/projects/kali-lnux-openbox/releases/)
+* [My customization about page](https://gitlab.com/jacekkowalczyk82/my-debian/-/blob/master/kali/about.md)
+* [My Kali Linux project at sourceforge.net](https://my-kali-linux.sourceforge.io)
+* [OLD project and ISO images at OSDN.net](https://osdn.net/projects/kali-lnux-openbox/releases/)
 
 
