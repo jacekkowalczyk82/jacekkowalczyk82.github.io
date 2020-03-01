@@ -25,6 +25,6 @@ I also built new custom ISO of my LDD Linux with MATE desktop and Ultra edition 
 New MATE edition ISO image is published to [LDD linux MATE edition files](https://sourceforge.net/projects/my-debian/files/live-buster-dwm-openbox-i3-mate/)
 The file name is: debian-live-10-ldd-mate-2020-02-28_094308-amd64.iso
 
-New Ultra Edition ISO image will be published (I hope today) to  [DD linux Ultra edition files](https://sourceforge.net/projects/my-debian/files/live-buster-dwm-ultra/)
+New Ultra Edition ISO image will be published (I hope today) to  [LDD linux Ultra edition files](https://sourceforge.net/projects/my-debian/files/live-buster-dwm-ultra/)
 
 
