@@ -18,7 +18,7 @@ Few years ago I started using [markdown](https://daringfireball.net/projects/mar
 
 Few months ago I heard about the [Jekyll](https://jekyllrb.com/) which is the recommended framework for [GitHub Pages](https://pages.github.com/). 
 
-I installed Jekyll and created  this blog page. 
+I installed Jekyll and created  this blog page (at FreeBSD) . 
 
 ```
 sudo pkg install ruby ruby26-gems
@@ -63,4 +63,26 @@ bundle exec jekyll serve
 * Finally I am creating new post at my wordpress blog and adding link to the new github blog post. 
 
 * That is it. End of story :-) 
+
+## No, no, not the end - UPDATE
+
+My blogging platform is still jekyll but I am doing it from many machines and OSs: Ubuntu, Antix, OpenBSD. 
+
+### Install development environment for blogging with jekyll on OpenBSD
+
+```
+sudo pkg_add ruby
+
+
+sudo gem27 install bundler jekyll
+#gem27 install bundler jekyll
+cd <jekyll blog repository>
+bundle27 config set path 'vendor/bundle'
+bundle27 install
+bundle27 exec jekyll serve
+
+# diff tool 
+sudo pkg_add kompare 
+
+```
 
