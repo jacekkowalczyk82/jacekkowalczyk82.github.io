@@ -66,7 +66,7 @@ bundle exec jekyll serve
 
 ## No, no, not the end - UPDATE
 
-My blogging platform is still jekyll but I am doing it from many machines and OSs: Ubuntu, Antix, OpenBSD. 
+My blogging platform is still jekyll but I am doing it from many machines and OSs: Ubuntu, Antix, FreeBSD, sOpenBSD. 
 
 ### Install development environment for blogging with jekyll on OpenBSD
 
@@ -85,4 +85,41 @@ bundle27 exec jekyll serve
 sudo pkg_add kompare 
 
 ```
+
+### Install development environment for blogging with jekyll on Ubuntu 20.04
+
+
+* https://jekyllrb.com/docs/installation/ubuntu/
+
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+gem install jekyll bundler
+```
+
+* to install dependencies/gems required by this blog
+
+```
+cd jacekkowalczyk82.github.io
+bundle install 
+```
+
+* to start jekyll server 
+
+```
+bundle exec jekyll serve
+```
+
+* to create a new post 
+
+```
+bundle exec jekyll post "My new post title" 
+```
+
+
 
