@@ -9,9 +9,9 @@ tags: [linux,ubuntu,ubuntu server,vm,multipass]
 
 ## Canonical Ubuntu https://multipass.run/
 
-What is multipass, it is a toola that allows to easily create and use Ubuntu server Virtual  Machines at Windows, Linux or MacOS. 
+What is Multipass, it is a tool that allows to easily create and use Ubuntu server Virtual  Machines at Windows, Linux or MacOS. 
 
-Install multipass for your platform following instructions at `https://multipass.run`
+Install Multipass for your platform following instructions at `https://multipass.run`
 
 ## Create and start new VM machine 
 
