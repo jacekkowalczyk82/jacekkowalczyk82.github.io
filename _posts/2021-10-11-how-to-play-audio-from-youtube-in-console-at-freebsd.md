@@ -47,5 +47,5 @@ mplayer -novideo $FILE_NAME
 
 ```
 
-Day later after this post I started improving my console player. I created this python script https://github.com/jacekkowalczyk82/py-playtube. 
+Day later after this post I started improving my console player. I created this python script [https://github.com/jacekkowalczyk82/py-playtube](https://github.com/jacekkowalczyk82/py-playtube) . 
 There will be changes to that script as I have few improvments in my mind. 
