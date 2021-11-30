@@ -23,7 +23,7 @@ But, I wanted also to learn a bit and I like pluma text editor which is not avai
 * Enable the option `Allow connections from network clients` in XQuartz settings
 * Install sockat `brew install socat` - it will be needed to forward connections to the XQuarz X11 server. 
 
-#### Docker image
+#### Create a docker image and pluma startup script
 
 * Create a `Dockerfile`
 
