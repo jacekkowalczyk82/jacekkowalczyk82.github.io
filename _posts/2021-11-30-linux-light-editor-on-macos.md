@@ -73,6 +73,8 @@ fi
 mkdir -p ~/docker-home/pid_files/
 PID_FILES=~/docker-home/pid_files/
 
+TIME_ID=$(gdate +%s.%N)
+
 SOCAT_STARTED=0
 if [ -e ${PID_FILES}/socat_PID.pid ]; then 
     echo "socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" is already running in the background, with PID: $(cat ${PID_FILES}/socat_PID.pid )"
@@ -86,20 +88,32 @@ else
     SOCAT_STARTED=1
 fi 
 
-docker run -it --rm -e DISPLAY=host.docker.internal:0  -v `pwd`:/tmp/ debian-editor $OPEN_FILE
+pluma_instance_ID=${TIME_ID}
+echo "$pluma_instance_ID" > ${PID_FILES}/pluma_instance_ID_${TIME_ID}.txt
 
+docker run -it --rm -e DISPLAY=host.docker.internal:0  -v `pwd`:/tmp/ debian-editor $OPEN_FILE
 
 cat ${PID_FILES}/socat_PID.pid
 ps aux |grep socat 
 
-if [ $SOCAT_STARTED -eq 1 ] ; then 
-    # killing socat only if it was started by this script instance
+how_many_instances=$(ls ${PID_FILES}/pluma_instance_ID*.txt | wc -l |xargs )
+
+echo "how_many_instances=$how_many_instances"
+
+if [ $how_many_instances -eq 1 ]; then 
+    # killing socat only if there is no more running pluma instances, 
+    # this is the only one
     echo "killing $(cat ${PID_FILES}/socat_PID.pid )"
     kill -s TERM $(cat ${PID_FILES}/socat_PID.pid )
     ps aux |grep socat 
 
     rm ${PID_FILES}/socat_PID.pid
+else 
+  echo "there are other running pluma instances"    
+  ls ${PID_FILES}/pluma_instance_ID*.txt
+
 fi 
+rm ${PID_FILES}/pluma_instance_ID_${TIME_ID}.txt
 echo "done"
 
 
