@@ -24,6 +24,7 @@ My other places:
 
 [GoldenLine propfile](http://www.goldenline.pl/jacek-kowalczyk6)
 
+[GitHub profile](https://github.com/jacekkowalczyk82)
 
 ### Contact me
 
