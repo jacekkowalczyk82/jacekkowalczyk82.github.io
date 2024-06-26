@@ -52,3 +52,76 @@ If TDD is not working in real life so what to do, how to bring more quality to c
 
 
 
+
+## DRAFT notes
+
+
+estable code and code fragments only for easy testing
+
+Developer things of optimizing the code.....easy to write. Fancy technologies, how it should work... Some are focused only on writing it and running it from IDE, never thinks about running it without IDE. console terminal. Some does not think about running in the cloud, k8s
+
+Some think about how it should work on production what it needs to do.....
+
+But barely nobody thinks about how to make the software testable before Prod. How to deploy it, how to divide to modules /units which can be easily tested.
+
+Very little thinks that the software will not work without bugs from the first time, we will need to run it multiple times, bugs can be in different modules, different steps of the implemented process.
+Each of these steps should be possible to mock to test others separately
+
+
+What about test data ,
+Repeating tests after some part is implemented bug fixed
+
+It does not have to be always fully automated code
+
+It can be sometimes manual or semi automated test
+
+Pareto. 80/20. Costs of automation
+
+
+
+
+
+
+Make it work make it right. Code quality, clean code.
+
+Lazy dev doesn't want to write tests. . I am lazy and for some small scripts or small utils I do not wrote automatwd tests but I do manual tests. Always. I repeat them always I add some new code new functionality or I fix bug. Manual test can be in form of the readme file or run configuration in IDE.
+I run it and check the output, logs did program do what ment to be done? Is it working as expected,,.
+
+
+But for bigger commercial apps, testing is a must have.
+I can understand that it can be hard to write tests for the legacy old application that no one want to touch..,.
+
+Bit when starting new project that is going to be cloud based with popular technology stack Java spring boot on k8s, what  is the excuse not to write tests?
+
+Refactoring
+
+I will do it Later
+
+We. Would need to fix tests after refactoring
+
+We are in hurry, the deadline is coming we need to deliver fast, after delivery you prod
+.. guess what. There will be no time for housekeeping work and adding tests to production working code. There will be new features or bugs to solve
+
+to deliver fast, accelerate is the CICD. CICD includes testing for every new feature. In a loop
+
+Architecture must also allow testing, if we assume design the application with  big dependent idea to infrastructure, zaleNosci między modułami że dane przychodA tylko w jeden sposób i że nie są się podmienić modułu na nocka yo będzie ciężko to przetestować
+
+Architecture communications, data processing, usage workflow must support mocking of modules systems. Infrastructure or data.
+
+
+
+Books
+Clean code
+Clean architecture
+
+Martin Fowler continuous delivery
+Accelerate
+Phenix project? Może nie bo to trochę inna tematyka a trochę SRE.
+
+
+
+
+
+
+
+
