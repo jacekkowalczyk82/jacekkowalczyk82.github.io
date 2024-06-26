@@ -33,6 +33,30 @@ Some can say it is just a theory and not real law.
 
 I must say that all these years spent in IT endustry taught me that it is real. It happend to me very often that after implementing 80% of functionality or 80% of tasks that were planned for Scrum Sprint, I am finding out that the last 20% of work needs 5 times more time. All planning goes to trash. The same happens with planning work for implementing the main code and  adding tests for it. I t happend for me also many times that I implementd the main code in few hours and to cover this code with tests (happy path plus some corner/edge cases) I needed few more days. 
 
+### Pareto Rule 80 / 20
+
+* 80 % of work is done in 20 % of time 
+* the rest 20 % of work needs 80 % of time to finish it. 
+
+### Entropy, Chaos Theory, Murphy's law
+
+* https://en.wikipedia.org/wiki/Chaos_theory
+
+> Software entropy is the risk that changing existing software will result in unexpected problems, unmet objectives, or both. Although negligible when software is first created, software entropy grows with each development iteration.
+
+> Anything that can go wrong will go wrong. 
+
+### Happy Path bs Edge cases 
+
+* Happy Path cases (80% of work) we can cover in 20 % of time spend on writing tests.
+* Edge Cases  (the rest 20% of work) needs 80% of time to test it. 
+
+* This is Optimistic.... 
+* In reality it can be 95 / 5. 
+
+
+
+
 ## TDD
 
 I need to say here also something about TDD. 
@@ -42,13 +66,55 @@ I must say that, I did some TDD, but long time ago and only for new code and onl
 
 If TDD is not working in real life so what to do, how to bring more quality to code, and why it is important? 
 
-## SOLID - make it testable
+## Make it testable
 
 * Composition over inheritance
 * SOLID
 * Mocks
 
 
+
+
+### Composition over inheritance
+
+* https://en.wikipedia.org/wiki/Composition_over_inheritance
+
+> "To favor composition over inheritance is a design principle that gives the design higher flexibility. It is more natural to build business-domain classes out of various components than trying to find commonality between them and creating a family tree. " 
+
+* https://medium.com/hprog99/composition-over-inheritance-a5f02a820eb0
+* https://blogs.oracle.com/javamagazine/post/java-inheritance-composition
+* https://www.digitalocean.com/community/tutorials/composition-vs-inheritance
+
+### Plain Mocks with Polymorphysm
+
+* https://dev.to/drathi/how-to-mock-without-using-mockito-or-any-frameworks-1b5g
+* Extracting init /construction code to methods 
+* SOLID 
+* Why ? It is easier to test!!!
+
+
+### SOLID
+
+* https://en.wikipedia.org/wiki/SOLID
+* https://pl.wikipedia.org/wiki/SOLID
+
+
+
+### LocalDate LocalTime
+
+use methods with Clock. 
+
+
+* https://www.studytonight.com/java-examples/java-localdate-nowclock-method
+
+
+## Quality 
+
+> Any fool can write code that a computer can understand. Good programmers write code that humans can understand. (Martin Fowler)
+
+> Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code. ...[Therefore,] making it easy to read makes it easier to write. (Robert C. Martin)
+
+> Software engineering is what happens to programming when you add time and other programmers. (Russ Cox) 
 
 
 
@@ -117,6 +183,23 @@ Clean architecture
 Martin Fowler continuous delivery
 Accelerate
 Phenix project? Może nie bo to trochę inna tematyka a trochę SRE.
+
+
+
+## Books not only about testing
+
+linki z amazona 
+
+* [Clean Code: A Handbook of Agile Software Craftsmanship By Robert C. Martin](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/)
+* [The Art of Software Testing, 3rd Edition](https://learning.oreilly.com/library/view/the-art-of/9781118133156/)
+* [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation by David Farley, Jez Humble ](https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
+* [Pragmatic Software Testing: Becoming an Effective and Efficient Test Professional](https://learning.oreilly.com/library/view/pragmatic-software-testing/9780470127902/)
+* [The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition](https://learning.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/)
+* [Site Reliability Engineering: How Google Runs Production Systems](https://learning.oreilly.com/library/view/site-reliability-engineering/9781491929117/)
+* [SRE Books](https://sre.google/books/)
+
+* [The Phoenix Project](https://learning.oreilly.com/library/view/the-phoenix-project/9781457191350/)
+* [Accelerate](https://learning.oreilly.com/library/view/accelerate/9781457191435/)
 
 
 
