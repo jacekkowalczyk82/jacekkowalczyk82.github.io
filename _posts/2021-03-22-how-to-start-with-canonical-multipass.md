@@ -41,7 +41,11 @@ multipass mount private/multipass/ubuntu-1-home ubuntu-1:ubuntu-1-home
 
 ## SSH Connection with X11 forwarding 
 
-**PREREQUISITE: Install your public ssh key to the VM `~/.ssh/authorized_keys`** 
+**PREREQUISITEs:**
+* Install your public ssh key to the VM `~/.ssh/authorized_keys`
+* Install macPorts
+* Install xhost : `sudo port install xhost`
+* Install Quartz from https://www.xquartz.org/ and logout /login again
 
 ```
 # on host run to get the list of installed VMs
@@ -54,9 +58,16 @@ xhost +
 
 ssh -X ubuntu@192.168.64.2
 
+# see https://unix.stackexchange.com/questions/412065/ssh-connection-x11-connection-rejected-because-of-wrong-authentication/709789#709789
+# set XAUTHORITY
+export XAUTHORITY=$HOME/.Xauthority 
+
 # and no you can run gui apps and forward them to your display , for example: 
 
 firefox 
+
+# example firefox with jekyll server
+firefox http://localhost:4000
 
 ```
 
