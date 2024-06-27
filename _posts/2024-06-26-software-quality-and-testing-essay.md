@@ -33,14 +33,14 @@ I always say the we should always pick Good (in terms of Quality) and one of the
 
 I also believed that every person, software engineers, testers, product owners, project managers in every IT software company knows this relation of costs of fixing bugs during the Software Development Live Cycle. 
 
-![cost-of-defects-in-SDLC](/assets/images/cost-of-defects-in-SDLC.png) (Picture from:  
+![cost-of-defects-in-SDLC](/assets/images/cost-of-defects-in-SDLC.png). Picture [from](  
 https://www.functionize.com/blog/the-cost-of-finding-bugs-later-in-the-sdlc) 
 
 Now I am not so sure about the last....
 
-Another rule, that I want to mention is the 80/20 rule - Pareto Principle (https://en.wikipedia.org/wiki/Pareto_principle) . 
+Another rule, that I want to mention is the 80/20 rule - [Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle) . 
 
-Some can say that they do not belive this kind of laws, like: Pareto rule, or Murphy's law (https://en.wikipedia.org/wiki/Murphy%27s_law). 
+Some can say that they do not belive this kind of laws, like: Pareto rule, or [Murphy's law](https://en.wikipedia.org/wiki/Murphy%27s_law). 
 Some can say it is just a theory and not real law. 
 
 I must say that all these years spent in IT endustry taught me that it is real. It happend to me very often that after implementing 80% of functionality or 80% of tasks that were planned for Scrum Sprint, I am finding out that the last 20% of work needs 5 times more time. All planning goes to trash. The same happens with planning work for implementing the main code and  adding tests for it. It happend for me also many times that I implementd the main code in few hours and to cover this code with tests (happy path plus some corner/edge cases) I needed few more days. 
@@ -63,7 +63,7 @@ Why I am saying about all these? Simply, we should take this into account when p
 
 ### Entropy, Chaos Theory, Murphy's law
 
-* https://en.wikipedia.org/wiki/Chaos_theory
+* [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 
 > Software entropy is the risk that changing existing software will result in unexpected problems, unmet objectives, or both. Although negligible when software is first created, software entropy grows with each development iteration.
 
@@ -119,7 +119,7 @@ System.out.println(localDateWithClock);
 
 This way you can create instances of LocalDate in test that can use any Clock you want, it can be also the clock that is showing always the same date no matter what. 
 
-Read more at: https://www.studytonight.com/java-examples/java-localdate-nowclock-method
+Read [more at](https://www.studytonight.com/java-examples/java-localdate-nowclock-method)
 
 
 **I must say about few techniques:**
@@ -131,17 +131,17 @@ Read more at: https://www.studytonight.com/java-examples/java-localdate-nowclock
 
 ### Composition over inheritance
 
-* https://en.wikipedia.org/wiki/Composition_over_inheritance
+* [Composition over inheritance](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 
 > "To favor composition over inheritance is a design principle that gives the design higher flexibility. It is more natural to build business-domain classes out of various components than trying to find commonality between them and creating a family tree. " 
 
-* https://medium.com/hprog99/composition-over-inheritance-a5f02a820eb0
-* https://blogs.oracle.com/javamagazine/post/java-inheritance-composition
-* https://www.digitalocean.com/community/tutorials/composition-vs-inheritance
+* [medium.com/hprog99/composition-over-inheritance-a5f02a820eb0](https://medium.com/hprog99/composition-over-inheritance-a5f02a820eb0)
+* [blogs.oracle.com/javamagazine/post/java-inheritance-composition)](https://blogs.oracle.com/javamagazine/post/java-inheritance-composition)
+* [www.digitalocean.com/community/tutorials/composition-vs-inheritance](https://www.digitalocean.com/community/tutorials/composition-vs-inheritance)
 
 ### Plain Mocks with Polymorphysm
 
-Before mockito library was invented there were techniques that allow to design the code in teh way that some pieces of it can be mocked. You can read more about this here: https://dev.to/drathi/how-to-mock-without-using-mockito-or-any-frameworks-1b5g 
+Before mockito library was invented there were techniques that allow to design the code in teh way that some pieces of it can be mocked. You can read more about this [here](https://dev.to/drathi/how-to-mock-without-using-mockito-or-any-frameworks-1b5g)
 
 The basic rule, I learned is to extract init /construction code to methods, so we can then overwrite them in the child classes. 
 SOLID rules help to make code that is easy for mocking and for testing. 
@@ -151,8 +151,8 @@ SOLID rules help to make code that is easy for mocking and for testing.
 
 Good developers should know, and the best of them should even use it daily. This very know principle of writing the Clean Code. 
 
-* https://en.wikipedia.org/wiki/SOLID
-* https://pl.wikipedia.org/wiki/SOLID
+* [https://en.wikipedia.org/wiki/SOLID](https://en.wikipedia.org/wiki/SOLID)
+* [https://pl.wikipedia.org/wiki/SOLID](https://pl.wikipedia.org/wiki/SOLID)
 
 
 ## Test Data
@@ -197,7 +197,7 @@ Guess what. There will be no time for housekeeping work and adding tests to prod
 
 To deliver fast/accelerate use correcly the CICD processes. CICD includes testing for every new feature. In a loop. 
 
-![www.abtasty.com-cicd.png](/assets/images/www.abtasty.com-cicd.png) (Picture from: https://www.abtasty.com/ci-cd/)
+![www.abtasty.com-cicd.png](/assets/images/www.abtasty.com-cicd.png). Picture [from](https://www.abtasty.com/ci-cd/)
 
 
 ## Final thoughts 
@@ -207,7 +207,7 @@ To deliver fast/accelerate use correcly the CICD processes. CICD includes testin
 
 ## Books and resources not only about testing
 
-* https://martinfowler.com/
+* [martinfowler.com](https://martinfowler.com)
 * [Clean Code: A Handbook of Agile Software Craftsmanship By Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * [The Art of Software Testing, 3rd Edition](https://www.amazon.com/Art-Software-Testing-Glenford-Myers/dp/1118031962)
 * [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation by David Farley, Jez Humble](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
