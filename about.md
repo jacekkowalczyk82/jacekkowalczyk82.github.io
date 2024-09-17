@@ -10,21 +10,15 @@ permalink: /about/
 
 My other places:
 
-[jacekkowalczyk.wordpress.com blog](https://jacekkowalczyk.wordpress.com/)
-
-[My Twitter](https://mobile.twitter.com/jacekkowalczy10/)
-
-[Mastodon](https://mastodon.technology/@kowalczy)
-
-[My FreeBSD customization/manuals project](https://gitlab.com/jacekkowalczyk82/freebsd)
-
-[My configs and manuals for my Kali Linux customization](https://gitlab.com/jacekkowalczyk82/my-debian)
-
-[LinkedIn profile](https://www.linkedin.com/in/jacek-kowalczyk-4800644/)
-
-[GoldenLine propfile](http://www.goldenline.pl/jacek-kowalczyk6)
-
-[GitHub profile](https://github.com/jacekkowalczyk82)
+* [jacekkowalczyk82.org](https://jacekkowalczyk82.org/)
+* [jacekkowalczyk.wordpress.com blog](https://jacekkowalczyk.wordpress.com/)
+* [My Twitter](https://mobile.twitter.com/jacekkowalczy10/)
+* [Mastodon](https://mastodon.technology/@kowalczy)
+* [My FreeBSD customization/manuals project](https://gitlab.com/jacekkowalczyk82/freebsd)
+* [My configs and manuals for my Kali Linux customization](https://gitlab.com/jacekkowalczyk82/my-debian)
+* [LinkedIn profile](https://www.linkedin.com/in/jacek-kowalczyk-4800644/)
+* [GoldenLine propfile](http://www.goldenline.pl/jacek-kowalczyk6)
+* [GitHub profile](https://github.com/jacekkowalczyk82)
 
 ### Contact me
 
