@@ -52,10 +52,11 @@ Why I am saying about all these? Simply, we should take this into account when p
 * 80% of work is done in 20% of time 
 * the rest 20% of work needs 80% of time to finish it. 
 
-### Happy Path bs Edge cases 
+### Happy Path vs Edge cases 
 
-* Happy Path cases (80% of work) we can cover in 20 % of time spend on writing tests.
+* Happy Path cases (80% of work) we can cover in 20 % of time spent on writing tests.
 * Edge Cases  (the rest 20% of work) needs 80% of time to test it. 
+* Also number of tests should follow this rule: 20% shoul be HappyPath and 80% Edge Cases
 
 * This is Optimistic.... 
 * In reality it can be 95 / 5. 
