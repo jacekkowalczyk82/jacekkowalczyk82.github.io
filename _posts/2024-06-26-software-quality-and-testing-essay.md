@@ -24,7 +24,7 @@ I will start with some quotations of IT authorities.
 
 ## Rules and laws 
 
-Every software engineer probably heard about the Good Chep Fast triangle -  You can pick only 2 of 3. 
+Every software engineer probably heard about the Good Cheap Fast triangle -  You can pick only 2 of 3. 
 
 
 ![Good-Cheap-Fast](/assets/images/d4fa412bc99a5d8f571cce04a61fac83.png)(I do not remember where I found this image.)
@@ -142,7 +142,7 @@ Read [more at](https://www.studytonight.com/java-examples/java-localdate-nowcloc
 
 ### Plain Mocks with Polymorphysm
 
-Before mockito library was invented there were techniques that allow to design the code in teh way that some pieces of it can be mocked. You can read more about this [here](https://dev.to/drathi/how-to-mock-without-using-mockito-or-any-frameworks-1b5g)
+Before mockito library was invented there were techniques that allow to design the code in the way that some pieces of it can be mocked. You can read more about this [here](https://dev.to/drathi/how-to-mock-without-using-mockito-or-any-frameworks-1b5g)
 
 The basic rule, I learned is to extract init /construction code to methods, so we can then overwrite them in the child classes. 
 SOLID rules help to make code that is easy for mocking and for testing. 
