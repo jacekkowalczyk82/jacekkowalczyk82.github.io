@@ -93,6 +93,7 @@ We should always do tests. We can do them manually or we can automate them. Not 
 
 
 > Nauczyłam się, że droga postępu nie jest ani szybka, ani łatwa.
+
 > I was taught that the way of progress is neither swift nor easy.
 
 * Maria Skłodowska-Curie
